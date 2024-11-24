@@ -348,12 +348,12 @@ $resultTestimonials = mysqli_query($mysqli, $queryTestimonials);
                             <h4 class="m-0">Service</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <i class="fa fa-cog fa-2x me-3"></i>
+                            <i class="fa fa-qrcode fa-2x me-3"></i>
                             <h4 class="m-0">Scan</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
-                            <i class="fa fa-oil-can fa-2x me-3"></i>
-                            <h4 class="m-0">Pasang Bodykit</h4>
+                            <i class="fa fa-cog fa-2x me-3"></i>
+                            <h4 class="m-0">Overhaul</h4>
                         </button>
                     </div>
                 </div>
@@ -364,16 +364,10 @@ $resultTestimonials = mysqli_query($mysqli, $queryTestimonials);
 
                         $result = mysqli_query($mysqli, "SELECT * FROM service");
                         $images = [
-                            'service-1.jpg',
+                            'bodyrepairMobil.jpg',
                             'service-2.jpg',
-                            'service-3.jpg',
-                            'service-4.jpg'
-                        ];
-                        $icons = [
-                            'fa-car-side',
-                            'fa-car',
-                            'fa-cog',
-                            'fa-oil-can'
+                            'scanMobil.jpg',
+                            'overhaulMobil.jpg'
                         ];
                         $index = 0;
 
@@ -436,7 +430,7 @@ $resultTestimonials = mysqli_query($mysqli, $queryTestimonials);
         </div>
         <div class="owl-carousel testimonial-carousel position-relative">
             <?php
-            $images = ['testimonial-1.jpg', 'testimonial-2.jpg', 'testimonial-3.jpg', 'testimonial-4.jpg']; // Fallback if images not in DB
+            $images = ['farel.jpg', 'leonard.jpg', 'arif.jpg', 'ricky.jpg', 'agatha.jpg', 'whindi.jpg'];
             $index = 0;
             while ($row = mysqli_fetch_assoc($resultTestimonials)): 
                 $imagePath = isset($row['image']) && !empty($row['image']) ? htmlspecialchars($row['image']) : "img/{$images[$index]}";

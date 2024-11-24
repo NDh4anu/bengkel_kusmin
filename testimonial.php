@@ -129,7 +129,7 @@
                 include 'koneksi.php';
 
                 $result = mysqli_query($mysqli, "SELECT * FROM testimonial");
-                $images = ['testimonial-1.jpg', 'testimonial-2.jpg', 'testimonial-3.jpg', 'testimonial-4.jpg'];
+                $images = ['farel.jpg', 'leonard.jpg', 'arif.jpg', 'ricky.jpg', 'agatha.jpg', 'whindi.jpg'];
                 $index = 0;
 
                 while ($row = mysqli_fetch_assoc($result)) {
