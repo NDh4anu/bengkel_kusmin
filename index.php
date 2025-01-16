@@ -465,8 +465,8 @@ $resultTestimonials = mysqli_query($mysqli, $queryTestimonials);
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Puspogiwang Timur Kel Salamanmloyo Kec Semarang Barat 297R+R4W Gisikdrono Kecamatan Semarang Barat, Kec. Kaliwungu, Jawa Tengah 50143</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>08112774994</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/kusmin_garage_autobodyrepair/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@kusmin_garage?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
